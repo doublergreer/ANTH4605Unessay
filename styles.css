@@ -196,9 +196,17 @@ li {
 }
 
 .about-image img {
-    width: 75%;
+    width: 100%;
     border-radius: 3px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.discussion-text {
+    /* flex: 1; */
+    padding-right: 50px;
+    opacity: 1;
+    transform: translateX(-50px);
+    transition: all 1s ease;
 }
 
 /* Timeline styling */
